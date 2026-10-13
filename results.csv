@@ -1,0 +1,8 @@
+Model,Precision,Recall,F1,PR_AUC,ROC_AUC,Caught,Missed,FalseAlarms
+LR - no imbalance handling,0.862,0.589,0.7,0.695,0.958,56,39,9
+LR - class weights,0.056,0.874,0.106,0.672,0.966,83,12,1393
+LR - SMOTE oversampling,0.054,0.874,0.101,0.673,0.96,83,12,1463
+LR - random undersampling,0.051,0.874,0.096,0.6,0.955,83,12,1552
+RF - no imbalance handling,0.972,0.737,0.838,0.789,0.97,70,25,2
+RF - class weights,0.909,0.737,0.814,0.805,0.951,70,25,7
+RF - undersampling (10:1),0.647,0.789,0.711,0.69,0.973,75,20,41
